@@ -1,18 +1,22 @@
-# Logo Branding Tool
+# Logo Branding Tool Pro
 
-This tool converts provider logos into a consistent branded badge style:
+Upgraded version of the logo badge app.
+
+## New in this version
+
+- Drag-and-drop multi-file upload
+- SVG support
+- Visual preview grid
+- Per-logo editing controls
+- Original vs branded preview tabs
+- One-click ZIP export for all outputs
+
+## Output format
 
 - Canvas: **356 x 346 px**
-- Background: **white circle**
-- Logo: **centered**
-- Output: **PNG**
-- Outside the circle: **transparent**
-
-## Files
-
-- `app.py` — Streamlit interface
-- `processor.py` — core image processing logic
-- `requirements.txt` — dependencies
+- Background: **white circular badge**
+- Outside badge: **transparent**
+- Export: **PNG**
 
 ## Run locally
 
@@ -21,6 +25,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Notes
+## Deploy for others
 
-The tool removes **near-white backgrounds** automatically. That works well for logos on white backgrounds, but it may need adjustment for logos with very light elements. Use the threshold slider in the app to fine-tune the result.
+The easiest option is to host it on Streamlit Community Cloud or your own cloud environment.
