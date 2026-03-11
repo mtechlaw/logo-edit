@@ -7,8 +7,8 @@ import streamlit as st
 
 from processor import LogoSettings, batch_zip, load_image_from_bytes, render_badge_from_bytes
 
-st.set_page_config(page_title="Logo Branding Tool v3", layout="wide")
-st.title("Logo Branding Tool v3")
+st.set_page_config(page_title="Logo Styling Tool", layout="wide")
+st.title("Logo Styling Tool")
 st.caption("Updated to match the style reference more closely: exact circle badge, transparent outer area, smaller centred logo.")
 
 with st.sidebar:
