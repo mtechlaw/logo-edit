@@ -1,30 +1,18 @@
-# Logo Branding Tool Pro
+# Logo Branding Tool v3
 
-Upgraded version of the logo badge app.
+This revision matches the reference style more closely.
 
-## New in this version
+## What changed
 
-- Drag-and-drop multi-file upload
-- SVG support
-- Visual preview grid
-- Per-logo editing controls
-- Original vs branded preview tabs
-- One-click ZIP export for all outputs
+- Uses an **exact 346 px circle** inside a **356 x 346 px** transparent canvas
+- Leaves **5 px transparent gutters** on the left and right
+- Uses a **smaller default logo scale** for more breathing room
+- Removes white backgrounds using **edge-connected flood fill** instead of blanket white deletion
+- Supports batch export and SVG files
 
-## Output format
-
-- Canvas: **356 x 346 px**
-- Background: **white circular badge**
-- Outside badge: **transparent**
-- Export: **PNG**
-
-## Run locally
+## Run
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## Deploy for others
-
-The easiest option is to host it on Streamlit Community Cloud or your own cloud environment.
