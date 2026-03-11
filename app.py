@@ -7,8 +7,8 @@ import streamlit as st
 
 from processor import LogoSettings, batch_zip, load_image_from_bytes, render_badge_from_bytes
 
-st.set_page_config(page_title="Logo Branding Tool v4", layout="wide")
-st.title("Logo Branding Tool v4")
+st.set_page_config(page_title="Logo Sizing Tool", layout="wide")
+st.title("Logo Sizing Tool")
 st.caption("Cleaner badge matching with optical centering, exact circle sizing, and polished batch export.")
 
 with st.sidebar:
