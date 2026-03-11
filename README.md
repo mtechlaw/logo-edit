@@ -1,4 +1,4 @@
-# Logo Branding Tool v3
+# Logo Styling Tool
 
 This revision matches the reference style more closely.
 
