@@ -1,18 +1,22 @@
-# Logo Styling Tool
+# Logo Branding Tool v4
 
-This revision matches the reference style more closely.
+This version is tuned to produce more polished badge outputs for logo grids.
 
-## What changed
+## Improvements
+- exact 356 x 346 canvas
+- exact 346 px white circle
+- transparent outer area
+- optical centering for visually uneven logos
+- safer edge-connected white background removal
+- SVG support
+- single PNG download or ZIP export
 
-- Uses an **exact 346 px circle** inside a **356 x 346 px** transparent canvas
-- Leaves **5 px transparent gutters** on the left and right
-- Uses a **smaller default logo scale** for more breathing room
-- Removes white backgrounds using **edge-connected flood fill** instead of blanket white deletion
-- Supports batch export and SVG files
-
-## Run
+## Run locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+## Deploy
+Upload the repo to GitHub and connect it to Streamlit Cloud.
