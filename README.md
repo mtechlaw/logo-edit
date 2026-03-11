@@ -1,4 +1,4 @@
-# Logo Branding Tool v4
+# Logo Sizing Tool
 
 This version is tuned to produce more polished badge outputs for logo grids.
 
